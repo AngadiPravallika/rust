@@ -1,0 +1,6 @@
+fn main() {
+    let tup = (42, 3.14, "hello");
+    println!("First element: {}", tup.0);
+    println!("Second element: {}", tup.1);
+    println!("Third element: {}", tup.2);
+}
