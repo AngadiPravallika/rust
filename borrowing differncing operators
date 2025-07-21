@@ -1,0 +1,13 @@
+fn main() {
+    let number = 5;
+
+    let reference = &number;
+    println!("Address of number (borrowed reference): {:p}", reference);
+
+    println!("Value of number through dereferencing: {}", *reference);
+
+    let mut mutable_number = 10;
+    let mutable_reference = &mut mutable_number;
+    *mutable_reference = 20;
+    println!("New value of mutable_number: {}", mutable_number);
+}
