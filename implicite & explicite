@@ -1,0 +1,15 @@
+fn main() {
+    let x = 42;
+    let y = 3.14;
+    let z = "hello";
+
+    println!("Implicit Type Declaration:");
+    println!("x = {}, y = {}, z = {}", x, y, z);
+
+    let x: i32 = 42;
+    let y: f64 = 3.14;
+    let z: &str = "hello";
+
+    println!("\nExplicit Type Declaration:");
+    println!("x = {}, y = {}, z = {}", x, y, z);
+}
