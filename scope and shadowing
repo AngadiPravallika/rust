@@ -1,0 +1,10 @@
+fn main() {
+    let x = 5; 
+    {
+        let x = 10; 
+        println!("Inner scope x = {}", x);
+    }
+    println!("Outer scope x = {}", x);
+    let x = x + 2;
+    println!("Shadowed x after adding 2 = {}", x); 
+}
